@@ -22,7 +22,7 @@ export default async function RootLayout({
   return (
     <html
       lang="en"
-      className={`h-full bg-[#F7F8FA] ${geistSans.variable} ${geistMono.variable}`}
+      className="h-full bg-[#F7F8FA] font-sans"
     >
       <head />
       <body className="h-full antialiased">
